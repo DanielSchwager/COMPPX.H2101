@@ -7,7 +7,6 @@ Here is a brief description of how to use it.
 
 <a href="https://finance.yahoo.com/quote/AAPL/history/" target="_blank">Yahoo Finance (Apple)</a>
 
-[Yahoo Finance (Apple)](https://finance.yahoo.com/quote/AAPL/history/)
 Download historical price data with the help of Yahoo finance.
 ![Yahoo Image](content/yahoo.png)
 
@@ -28,7 +27,7 @@ Extract a list of mapped values from the CSV file.
 
 ## Google Collab
 
-[Google Collab Notebook](https://colab.research.google.com/drive/1vz6apDn68PF9NG3faSi9S6VAQKqy6FsE#scrollTo=eQVvInM6a0lw)
+<a href="https://colab.research.google.com/drive/1vz6apDn68PF9NG3faSi9S6VAQKqy6FsE?usp=sharing" target="_blank">Google Collab Notebook</a>
 
 1. Run the installation cell.
 2. Before running the 2nd cell, paste the values extracted in step 2 into the "degrees:" field.
