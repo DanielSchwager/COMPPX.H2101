@@ -11,3 +11,7 @@ First, I looked for a generative adversarial audio network. I quickly found one 
 
 Creating a midi file was fortunately quite easy thanks to the MidiUtil library.
 Next I had to get the input for the midifile.
+
+## Self-reflection
+
+To conclude, I actually wanted to turn the whole thing into one project

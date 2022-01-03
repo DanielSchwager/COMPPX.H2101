@@ -5,9 +5,7 @@ Here is a brief description of how to use it.
 
 ## 1. step
 
-<a href="https://finance.yahoo.com/quote/AAPL/history/" target="_blank">Yahoo Finance (Apple)</a>
-
-Download historical price data with the help of Yahoo finance.
+Download historical price data with the help of Yahoo finance.<a href="https://finance.yahoo.com/quote/AAPL/history/" target="_blank">Yahoo Finance (Apple)</a>
 ![Yahoo Image](content/yahoo.png)
 
 1. Search in the search box for a stock or cryptocurrency you want to use to generate audio.
@@ -27,7 +25,7 @@ Extract a list of mapped values from the CSV file.
 
 ## Google Collab
 
-<a href="https://colab.research.google.com/drive/1vz6apDn68PF9NG3faSi9S6VAQKqy6FsE?usp=sharing" target="_blank">Google Collab Notebook</a>
+<a href="https://colab.research.google.com/drive/1vz6apDn68PF9NG3faSi9S6VAQKqy6FsE?usp=sharing/" target="_blank">Google Collab Notebook</a>
 
 1. Run the installation cell.
 2. Before running the 2nd cell, paste the values extracted in step 2 into the "degrees:" field.
