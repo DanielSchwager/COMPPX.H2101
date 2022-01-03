@@ -1,6 +1,7 @@
-# Comppx_Stocks
+# Readme
 
-This is a Project from Daniel Schwager
+This is a prototype by Daniel Schwager, which was developed in the course of the module COMPPX.
+Here is a brief description of how to use it.
 
 ## 1. step
 
