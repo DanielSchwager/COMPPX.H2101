@@ -6,6 +6,9 @@ This is a Project from Daniel Schwager
 
 Download historical price data with the help of Yahoo finance.
 [Yahoo Finance (Apple)](https://finance.yahoo.com/quote/AAPL/history/)
+![Yahoo Image](content/yahoo.png)
+
+1. search in the search box for a stock or cryptocurrency you want to use to generate audio
 
 ## CSV Converter
 
