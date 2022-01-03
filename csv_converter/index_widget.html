@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+      <div id="tradingview_f2048"></div>
+      <div class="tradingview-widget-copyright">
+        <a
+          href="https://de.tradingview.com/symbols/AAPL/"
+          rel="noopener"
+          target="_blank"
+          ><span class="blue-text">Apple</span></a
+        >
+        by TradingView
+      </div>
+      <script
+        type="text/javascript"
+        src="https://s3.tradingview.com/tv.js"
+      ></script>
+      <script type="text/javascript">
+        new TradingView.MediumWidget({
+          symbols: [
+            ["Apple", "AAPL"],
+            ["Google", "GOOGL"],
+            ["Microsoft", "MSFT"],
+            ["Bitcoin", "BTC"],
+            ["Ether", "ETH"],
+            ["Tesla", "TSLA"],
+          ],
+          chartOnly: false,
+          width: 802,
+          height: 564,
+          locale: "de_DE",
+          colorTheme: "light",
+          gridLineColor: "rgba(240, 243, 250, 0)",
+          fontColor: "#787B86",
+          isTransparent: false,
+          autosize: false,
+          showFloatingTooltip: true,
+          showVolume: false,
+          scalePosition: "no",
+          scaleMode: "Normal",
+          fontFamily: "Trebuchet MS, sans-serif",
+          noTimeScale: false,
+          chartType: "area",
+          lineColor: "#2962FF",
+          bottomColor: "rgba(41, 98, 255, 0)",
+          topColor: "rgba(41, 98, 255, 0.3)",
+          container_id: "tradingview_f2048",
+        });
+
+        var image = canvas
+          .toDataURL("image/png")
+          .replace("image/png", "image/octet-stream"); // here is the most important part because if you dont replace you will get a DOM 18 exception.
+
+        window.location.href = image; // it will save locally
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+  </body>
+</html>
