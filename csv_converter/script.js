@@ -51,7 +51,7 @@ function draw() {
     );
   }
   console.log(mappedValues);
-  document.getElementById("out").innerHTML = "[" + mappedValues + "\n" + "]";
+  document.getElementById("out").innerHTML = mappedValues + "\n";
 }
 
 function copyValues() {
