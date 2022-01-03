@@ -1,4 +1,4 @@
-# Readme
+# COMPPX Readme
 
 This is a prototype by Daniel Schwager, which was developed in the course of the module COMPPX.
 Here is a brief description of how to use it.
