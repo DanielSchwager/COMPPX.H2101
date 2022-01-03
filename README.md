@@ -8,7 +8,9 @@ Download historical price data with the help of Yahoo finance.
 [Yahoo Finance (Apple)](https://finance.yahoo.com/quote/AAPL/history/)
 ![Yahoo Image](content/yahoo.png)
 
-1. search in the search box for a stock or cryptocurrency you want to use to generate audio
+1. search in the search box for a stock or cryptocurrency you want to use to generate audio.
+2. Switch to the Hystorical Data tab.
+3. Download the csv file.
 
 ## CSV Converter
 
