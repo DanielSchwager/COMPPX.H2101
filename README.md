@@ -5,7 +5,7 @@ This is a Project from Daniel Schwager
 ## 1. step
 
 Download historical price data with the help of Yahoo finance.
-[Yahoo Finance (Apple)](https://finance.yahoo.com/quote/AAPL/history/)
+![Yahoo Finance (Apple)](https://finance.yahoo.com/quote/AAPL/history/)
 ![Yahoo Image](content/yahoo.png)
 
 1. Search in the search box for a stock or cryptocurrency you want to use to generate audio.
