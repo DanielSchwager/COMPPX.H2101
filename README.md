@@ -8,13 +8,20 @@ Download historical price data with the help of Yahoo finance.
 [Yahoo Finance (Apple)](https://finance.yahoo.com/quote/AAPL/history/)
 ![Yahoo Image](content/yahoo.png)
 
-1. search in the search box for a stock or cryptocurrency you want to use to generate audio.
+1. Search in the search box for a stock or cryptocurrency you want to use to generate audio.
 2. Switch to the Hystorical Data tab.
 3. Download the csv file.
 
-## CSV Converter
+## 2. step
 
+Extract a list of mapped values from the CSV file.
 [CSV Converter](csv_converter/index.html)
+![Converter Image](content/csv.png)
+
+1. Select the CSV file you have downloaded before.
+2. Copy the numerical values. We will need these later.
+3. (additionally)
+   play around with the values. Min and Max Value specifies the range to which the numbers are mapped. Column to read specifies which column will be read. The separator is for when the CSV file uses a different character to separate the columns, when the data comes from a different source or was first edited in Excel.
 
 ## Google Collab
 
