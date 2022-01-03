@@ -26,3 +26,9 @@ Extract a list of mapped values from the CSV file.
 ## Google Collab
 
 [Google Collab Notebook](https://colab.research.google.com/drive/1vz6apDn68PF9NG3faSi9S6VAQKqy6FsE#scrollTo=eQVvInM6a0lw)
+
+1. Run the installation cell.
+2. Before running the 2nd cell, paste the values extracted in step 2 into the "degrees:" field.
+   ![Midi Image](content/midi.png)
+3. In cell 3, the midi file created in step 2 is selected by default. However, you can still upload your own midis here.
+4. In the last step, you can use the slider to specify after how many seconds the instruments will randomly interpolate.
